@@ -4,7 +4,7 @@
   "description": "servicio node para docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon app.ts"
   },
   "author": "",
   "license": "ISC",

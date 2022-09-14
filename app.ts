@@ -1,7 +1,7 @@
 import express from 'express'
 
 const app = express()
-const port =  6550
+const port =  3200
 
 app.listen(port, async () => {
     console.log('[server] Status OK');

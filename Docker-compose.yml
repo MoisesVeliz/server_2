@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  server:
+    container_name: server_express
+    restart: always
+    image: node_server
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3200:3200
+    command: npm run start:dev
